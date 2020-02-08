@@ -54,23 +54,87 @@ mkdir RailsProjects
 ### Psensor
 `sudo apt install psensor`
 
-###
-`sudo apt install `
+### Klavaro (Flathub)
+`sudo flatpak install flathub net.sourceforge.Klavaro -y`
 
-###
-`sudo apt install `
+### GIMP (Flathub)
+`sudo flatpak install flathub org.gimp.GIMP -y`
 
-###
-`sudo apt install `
+### SuperTuxKart (Flathub)
+`sudo flatpak install flathub net.supertuxkart.SuperTuxKart -y`
 
-###
-`sudo apt install `
+### Minetest (Flathub)
+`sudo flatpak install flathub net.minetest.Minetest -y`
 
-###
-`sudo apt install `
+### Android Studio (Flathub)
+`sudo flatpak install flathub com.google.AndroidStudio -y`
 
-###
-`sudo apt install `
+### Arduino IDE (Flathub)
+`sudo flatpak install flathub cc.arduino.arduinoide -y `
+
+### IntelliJ IDEA Community (Flathub)
+`sudo flatpak install flathub com.jetbrains.IntelliJ-IDEA-Community -y `
+
+### Postman (Flathub)
+`sudo flatpak install flathub com.getpostman.Postman -y `
+
+### Sublime Text (Flathub)
+`sudo flatpak install flathub com.sublimetext.three -y `
+
+### Audacity (Flathub)
+`sudo flatpak install flathub org.audacityteam.Audacity -y `
+
+### Billiards (Flathub)
+`sudo flatpak install flathub de.billardgl.Billardgl -y `
+
+### Calibre (Flathub)
+`sudo flatpak install flathub com.calibre_ebook.calibre -y `
+
+### Discord (Flathub)
+`sudo flatpak install flathub com.discordapp.Discord -y `
+
+### Dropbox (Flathub)
+`sudo flatpak install flathub com.dropbox.Client -y `
+
+### Fondo (Flathub)
+`sudo flatpak install flathub com.github.calo001.fondo -y `
+
+### GnuCash (Flathub)
+`sudo flatpak install flathub org.gnucash.GnuCash -y `
+
+### HexGL (Flathub)
+`sudo flatpak install flathub org.gnome.HexGL -y `
+
+### JDownloader (Flathub)
+`sudo flatpak install flathub org.jdownloader.JDownloader -y `
+
+### Kodi (Flathub)
+`sudo flatpak install flathub tv.kodi.Kodi -y `
+
+### Moneta (Flathub)
+`sudo flatpak install flathub com.github.matfantinel.moneta -y `
+
+### Steam (Flathub)
+`sudo flatpak install flathub com.valvesoftware.Steam -y `
+
+### Spotify (Flathub)
+`sudo flatpak install flathub com.spotify.Client -y `
+
+### Visual Studio Code (Flathub)
+`sudo flatpak install flathub com.visualstudio.code -y `
+
+### Video Downloader (Flathub)
+`sudo flatpak install flathub com.github.unrud.VideoDownloader -y `
+
+### VLC (Flathub)
+`sudo flatpak install flathub org.videolan.VLC -y `
+
+### VueScan (Flathub)
+`sudo flatpak install flathub com.hamrick.VueScan -y `
+
+### AppName (Flathub)
+`sudo command -y `
+`
 
 ## Configuraciones
 ### Swappiness a 10
