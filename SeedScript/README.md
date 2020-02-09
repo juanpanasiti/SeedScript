@@ -132,8 +132,11 @@ mkdir RailsProjects
 ### VueScan (Flathub)
 `sudo flatpak install flathub com.hamrick.VueScan -y `
 
-### Dia (Flathub)
+### Dia
 `sudo apt install dia -y`
+
+### Shotwell
+`sudo apt install shotwell -y`
 
 ## Configuraciones
 ### Swappiness a 10
