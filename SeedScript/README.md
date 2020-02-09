@@ -132,9 +132,8 @@ mkdir RailsProjects
 ### VueScan (Flathub)
 `sudo flatpak install flathub com.hamrick.VueScan -y `
 
-### AppName (Flathub)
-`sudo command -y `
-`
+### Dia (Flathub)
+`sudo apt install dia -y`
 
 ## Configuraciones
 ### Swappiness a 10
