@@ -54,31 +54,78 @@ menu_dev_software()
     echo "\e[1;31mSelecciona un programa a instalar:\e[0m"
 
     #Git Option
-    echo -n "\e[0;94m\t1. Git\e[0m"
+    echo -n "\e[0;94m\t1.  Git\e[0m"
     check_soft "git"
 
     #Atom option
-    echo -n "\e[0;94m\t2. Atom\e[0m"
+    echo -n "\e[0;94m\t2.  Atom\e[0m"
     echo ""
     #check_soft "atom"
 
-    #Rails option
-    echo -n "\e[0;94m\t3. Rails\e[0m"
-    echo ""
-    #check_soft "rails"
-
     #Ruby option
-    echo -n "\e[0;94m\t4. Ruby\e[0m"
+    echo -n "\e[0;94m\t3.  Ruby\e[0m"
     echo ""
     #check_soft "ruby"
 
+    #Rails option
+    echo -n "\e[0;94m\t4.  Rails\e[0m"
+    echo ""
+    #check_soft "rails"
+
     #Dia option
-    echo -n "\e[0;94m\t5. Dia\e[0m"
+    echo -n "\e[0;94m\t5.  Dia\e[0m"
     check_soft "dia"
+
+    #Visual Studio Code option
+    echo -n "\e[0;94m\t6.  Visual Studio Code\e[0m"
+    echo ""
+    #check_soft "dia"
+
+    #Sublime Text option
+    echo -n "\e[0;94m\t7.  Sublime Text\e[0m"
+    echo ""
+    #check_soft "_____"
+
+    #Postman option
+    echo -n "\e[0;94m\t8.  Postman\e[0m"
+    echo ""
+    #check_soft "_____"
+
+    #IntelliJ IDEA Community option
+    echo -n "\e[0;94m\t9.  IntelliJ IDEA Community\e[0m"
+    echo ""
+    #check_soft "_____"
+
+    #Arduino IDE option
+    echo -n "\e[0;94m\t10. Arduino IDE\e[0m"
+    echo ""
+    #check_soft "_____"
+
+    #Android Studio option
+    echo -n "\e[0;94m\t11. Android Studio\e[0m"
+    echo ""
+    #check_soft "_____"
+
+    #Atom option
+    echo -n "\e[0;94m\t12. Atom\e[0m"
+    echo ""
+    #check_soft "_____"
+
+    #PostgreSQL option
+    echo -n "\e[0;94m\t13. PostgreSQL\e[0m"
+    echo ""
+    #check_soft "_____"
+
+    #_____ option
+    echo -n "\e[0;94m\tn. _____\e[0m"
+    echo ""
+    #check_soft "_____"
 
     #_____ option
     #echo -n "\e[0;94m\tn. _____\e[0m"
+    #echo ""
     #check_soft "_____"
+
 
     echo -n "\e[1;31m"
     echo "\t0. Salir"
@@ -86,8 +133,104 @@ menu_dev_software()
     read option
     clear
     case $option in
-      1 ) menu_dev_software;;
-      2 ) echo "Ejecutar configuraciones";;
+      1 ) sh install/git.sh;;#Git
+      2 ) echo "Ejecutar configuraciones";;#
+      3 ) echo "Ejecutar configuraciones";;
+      4 ) echo "Ejecutar configuraciones";;
+      0 ) continue=false;;
+      * ) echo "Opcion incorrecta";;
+    esac
+    echo -n "\e[0m"
+  done
+}
+
+menu_multimedia_n_streaming
+{
+  option=0
+  continue=true
+  while $continue
+  do
+    echo "\e[1;31mSelecciona un programa a instalar:\e[0m"
+
+    #Psensor option
+    echo -n "\e[0;94m\t1.  Psensor\e[0m"
+    #echo ""
+    check_soft "psensor"
+
+
+    #Klavaro (Flathub) option
+    echo -n "\e[0;94m\t2. Klavaro (Flathub)\e[0m"
+    echo ""
+    #check_soft "_____"
+
+
+    #_____ option
+    echo -n "\e[0;94m\tn. _____\e[0m"
+    echo ""
+    #check_soft "_____"
+
+
+    #_____ option
+    echo -n "\e[0;94m\tn. _____\e[0m"
+    echo ""
+    #check_soft "_____"
+
+
+    #_____ option
+    echo -n "\e[0;94m\tn. _____\e[0m"
+    echo ""
+    #check_soft "_____"
+
+
+    #_____ option
+    echo -n "\e[0;94m\tn. _____\e[0m"
+    echo ""
+    #check_soft "_____"
+
+
+    #_____ option
+    echo -n "\e[0;94m\tn. _____\e[0m"
+    echo ""
+    #check_soft "_____"
+
+
+    #_____ option
+    echo -n "\e[0;94m\tn. _____\e[0m"
+    echo ""
+    #check_soft "_____"
+
+
+    #_____ option
+    echo -n "\e[0;94m\tn. _____\e[0m"
+    echo ""
+    #check_soft "_____"
+
+
+    #_____ option
+    echo -n "\e[0;94m\tn. _____\e[0m"
+    echo ""
+    #check_soft "_____"
+
+
+    #_____ option
+    echo -n "\e[0;94m\tn. _____\e[0m"
+    echo ""
+    #check_soft "_____"
+
+    #_____ option
+    #echo -n "\e[0;94m\tn. _____\e[0m"
+    #echo ""
+    #check_soft "_____"
+
+
+    echo -n "\e[1;31m"
+    echo "\t0. Salir"
+    echo -n "\e[0m"
+    read option
+    clear
+    case $option in
+      1 ) sh install/git.sh;;#Git
+      2 ) echo "Ejecutar configuraciones";;#
       3 ) echo "Ejecutar configuraciones";;
       4 ) echo "Ejecutar configuraciones";;
       0 ) continue=false;;
