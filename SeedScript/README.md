@@ -151,5 +151,42 @@ ssh-keygen -t rsa -b 4096 -C "$email"
 ```
 
 ## Tips para los scripts
+### Comprara numeros
+#!/bin/bash
+# Script to do numeric comparisons
+```
+var1=10
+var2=20
+if [ $var2 -gt $var1 ]
+    then
+        echo "$var2 is greater than $var1"
+fi
+```
++ num1 -eq num2                  check if 1st  number is equal to 2nd number
++ num1 -lt num2                   checks if 1st  number  is less than 2nd number
++ num1 -ge num2                  checks if 1st  number  is greater than or equal to 2nd number
++ num1 -gt num2                  checks if 1st  number is greater than 2nd number
++ num1 -le num2                   checks if 1st number is less than or equal to 2nd number
++ num1 -ne num2                  checks if 1st  number  is not equal to 2nd number
 
++ var1 = var2     checks if var1 is the same as string var2
++ var1 != var2    checks if var1 is not the same as var2
++ var1 < var2     checks if var1 is less than var2
++ var1 > var2     checks if var1 is greater than var2
++ -n var1             checks if var1 has a length greater than zero
++ -z var1             checks if var1 has a length of zero
+
+### case
+```
+case $rental in
+   "car") echo "For $rental rental is Rs.20 per k/m.";;
+   "van") echo "For $rental rental is Rs.10 per k/m.";;
+   "jeep") echo "For $rental rental is Rs.5 per k/m.";;
+   "bicycle") echo "For $rental rental 20 paisa per k/m.";;
+   "enfield") echo "For $rental rental Rs.3  per k/m.";;
+   "thunderbird") echo "For $rental rental Rs.5 per k/m.";;
+   *) echo "Sorry, I can not get a $rental rental  for you!";;
+esac
+```
 ### Códigos para formato en el bash
+https://misc.flogisoft.com/bash/tip_colors_and_formatting
