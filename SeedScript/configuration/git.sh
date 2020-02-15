@@ -1,5 +1,7 @@
-read "Ingrese su nombre: " nombre
-read "Ingrese su email: " email
+echo "Ingrese su nombre: " nombre
+read nombre
+echo "Ingrese su email: "
+read email
 
 git config --global color.ui true
 git config --global user.name "$nombre"
