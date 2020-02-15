@@ -16,7 +16,7 @@ do
   clear
   case $option in
     1 ) sh install_software.sh;;
-    2 ) echo "Ejecutar configuraciones";;
+    2 ) sh set_configurations.sh;;
     0 ) continue=false;;
     * ) echo "Opcion incorrecta";;
   esac
